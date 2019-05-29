@@ -16,7 +16,7 @@
   5. CMakeUP
 - HP-VIM
   ----
-  3DViewer
+- 3DViewer
   -- 
 - 三维点云重建
   --
