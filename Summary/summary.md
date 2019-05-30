@@ -15,6 +15,8 @@
   4. dll
   5. XML
   6. CMakeUP Libray to parser XML
+  7. C# winform程序调用C++导出类dll
+
 - HP-VIM
   ----
   1. 友元
@@ -37,6 +39,9 @@
 - 三维点云重建
   -----
   1. OSG(Open Sence Graph)
+  2. 有限元处理
+  3. 三角化网格
+  4. STL，IGES等CAD文件处理，解析
 - Open CASCADE
   -----
 	1. CAD 文件解析，导入导出
@@ -49,4 +54,22 @@
 	1. 模板函数
 	2. 模板类
   3. 单例模式
+  4. 多线程导致的内存泄漏，C++智能指针，C#\CLR托管堆，java类同样如此，一般原因是生命周期不同的互相引用或多线程中资源未释放，多线程异常结束没有释放等
+  5. 可变参数(参考printf语法)通过模板类实现，或者标准库[LINK](https://blog.csdn.net/qq_35097289/article/details/90229594).
+
+- 算法
+  1. 图像边界处理
+  2. 离散点拟合球面 [LINK](https://blog.csdn.net/qq_35097289/article/details/90405205).
+  
+  
+- 其他
+	. 调试技巧或者异常
+	. Cmake的使用CMakeList, MakeFile区别
+	. 线程结束方式分析
+  
+
+
+
+
+
 
