@@ -27,15 +27,19 @@
 	2. 模板类
   3. 数据库 ADO
   4. GDI+
-  5. 多线程
+  5. 多线程 线程通信- 事件，信号，全局变量
 	1. 线程同步
 	2. 线程池
   6. 进程间通信 - 共享内存[Link](https://blog.csdn.net/qq_35097289/article/details/78262721).
+	管道， socket， 信号，文件
 - 3DViewer
   ------
   1. OSG(Open Sence Graph)
 	1. smart pointer [Link](https://blog.csdn.net/qq_35097289/article/details/89021470).
 	2. osgUtil::DelaunayTriangulator [Link](https://blog.csdn.net/qq_35097289/article/details/82387045).
+	3. 坐标变换
+	4. 用户事件处理
+	5. 界面刷新
 - 三维点云重建
   -----
   1. OSG(Open Sence Graph)
@@ -56,7 +60,9 @@
   3. 单例模式
   4. 多线程导致的内存泄漏，C++智能指针，C#\CLR托管堆，java类同样如此，一般原因是生命周期不同的互相引用或多线程中资源未释放，多线程异常结束没有释放等
   5. 可变参数(参考printf语法)通过模板类实现，或者标准库[LINK](https://blog.csdn.net/qq_35097289/article/details/90229594).
-
+  6. EPPLUS导出excel
+  7. CSV文件数据库导入导出
+  8. WIXToolSet 制作msi安装包
 - 算法
   1. 图像边界处理
   2. 离散点拟合球面 [LINK](https://blog.csdn.net/qq_35097289/article/details/90405205).
@@ -66,9 +72,7 @@
 	. 调试技巧或者异常
 	. Cmake的使用CMakeList, MakeFile区别
 	. 线程结束方式分析
-  
-
-
+  独立研究过第三方开源库EPPLUS OSG OpenCASCADE等
 
 
 
