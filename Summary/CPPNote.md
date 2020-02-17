@@ -85,3 +85,16 @@
 
 ## 排序算法
 - 常见算法  Pending......
+
+## 其他开源工具库
+- ONVIF 网络摄像头开源协议
+- gSoap C++ webservice
+- OSG(Open Scence Graphic)
+- OpenGL
+- OPenCV
+- OCC （OPEN CASCADE）
+- Epplus Excel处理库
+- gmsh 三维有限元分割库 .STL文件
+- Eigen 一个数学计算库
+- fltk 轻量级图形界面库
+- redis
