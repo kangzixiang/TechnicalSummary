@@ -98,3 +98,4 @@
 - Eigen 一个数学计算库
 - fltk 轻量级图形界面库
 - redis
+- Wix3/Wix4 tool set 打包制作windows安装程序
