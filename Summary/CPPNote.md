@@ -2,9 +2,25 @@
 ## 基础知识
 - if和switch的区别，效率性能
 - C++基础知识， 常见关键词
-> extern
-> static
-> const & volatile
+> 提几个关键词：auto, decltype, nullptr，extern， static， const & volatile，operator， sizeof，this, template, typedef, typeid, typename, virtual,
+> synchronized
+- 预编译指令
+>  pragma, if
+elif
+else
+endif
+ifdef
+ifndef
+define
+undef
+include
+line
+error
+pragma
+defined
+__has_include (since C++17)
+__has_cpp_attribute (since C++20)
+
 - 内联函数，宏定义函数和普通函数的区别
 - 指针与引用的区别
 - new与malloc的区别
@@ -17,6 +33,8 @@
 - const与#define的区别
 - 哪些函数不能成为虚函数？
 - this指针的理解
+- 构造函数 & 析构函数
+- 拷贝构造函数，深拷贝，浅拷贝
 ## 内存管理，内存泄漏
 - 野指针
 - 智能指针（引用计数）：auto_ptr，unique_ptr，share_ptr，weak_ptr
