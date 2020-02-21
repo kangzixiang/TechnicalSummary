@@ -18,8 +18,8 @@ line
 error
 pragma
 defined
-__has_include (since C++17)
-__has_cpp_attribute (since C++20)
+ __has_include (since C++17)
+ __has_cpp_attribute (since C++20)
 
 - 内联函数，宏定义函数和普通函数的区别
 - 指针与引用的区别
@@ -35,6 +35,7 @@ __has_cpp_attribute (since C++20)
 - this指针的理解
 - 构造函数 & 析构函数
 - 拷贝构造函数，深拷贝，浅拷贝
+- 形参带&， && （左值引用，右值引用）
 ## 内存管理，内存泄漏
 - 野指针
 - 智能指针（引用计数）：auto_ptr，unique_ptr，share_ptr，weak_ptr
@@ -79,7 +80,7 @@ __has_cpp_attribute (since C++20)
 - 类模板，模板类，函数模板，模板函数
 - 不定参数模板
 - 模板的实例化： 隐式实例化、显式实例化
-- 模板特化
+- 模板的特化： 全特化，偏特化（偏特化分两种：部分特化，对类型范围的限制，主要的模板类型基础不变），模板对模板进行特化。模板的特化是对模板的非通用部分进行特殊化处理。
 - 模板类的继承
 ### C++函数或函数模板的匹配顺序
 
